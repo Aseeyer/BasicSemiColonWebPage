@@ -149,3 +149,51 @@
   line-height: 1.6;
   text-align: left;
 }
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  margin-bottom: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #555;
+  margin-top: 60px;
+}
+
+.how-we-do-it {
+  padding: 80px;
+  background-color: #fff;
+  position: relative;
+  overflow: visible;
+}
+
+.how-we-do-it h2 {
+  font-size: 28px;
+  color: #1f3b5c;
+  margin-bottom: 40px;
+}
+
+.how-we-do-it h2 span {
+  color: red;
+}
+
+.how-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+}
