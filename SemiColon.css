@@ -61,4 +61,30 @@
   flex: 1;
 }
 
+.hero-text h1 {
+  font-size: 42px;
+  color: #1f3b5c;
+  margin-bottom: 20px;
+}
 
+.hero-text p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.red-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
