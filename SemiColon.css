@@ -30,3 +30,35 @@
   transition: color 0.3s ease;
 }
 
+.nav-links a:hover {
+  color: red;
+}
+
+.join-btn {
+  border: 1.5px solid red;
+  background-color: white;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+
