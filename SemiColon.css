@@ -197,3 +197,42 @@ footer {
   gap: 40px;
   position: relative;
 }
+
+.how-list ul {
+  list-style: none;
+  border-left: 3px solid #e0e0e0;
+  padding-left: 20px;
+  margin-right: 30px;
+}
+
+.how-list li {
+  font-size: 18px;
+  color: #1f3b5c;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.how-list li:hover {
+  color: red;
+}
+
+.how-list .active {
+  color: red;
+  font-weight: bold;
+  position: relative;
+}
+
+.how-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.how-content img {
+  width: 450px;
+  border-radius: 10px;
+  margin-left: -40px;
+}
