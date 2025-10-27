@@ -88,3 +88,32 @@
   cursor: pointer;
   font-size: 16px;
 }
+
+.outline-btn {
+  background-color: white;
+  color: red;
+  border: 1.5px solid red;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-image img {
+  width: 450px;
+}
+
+.what-we-do {
+  padding: 80px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.what-we-do-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+}
+
