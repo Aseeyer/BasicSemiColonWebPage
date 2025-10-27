@@ -236,3 +236,30 @@ footer {
   border-radius: 10px;
   margin-left: -40px;
 }
+
+.info-box {
+  background-color: red;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 450px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.pink-circle {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(255, 192, 203, 0.4) 0%, rgba(255, 192, 203, 0.2) 60%, rgba(255, 192, 203, 0.1) 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -150px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
